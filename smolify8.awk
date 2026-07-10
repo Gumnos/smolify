@@ -10,7 +10,6 @@ function display(        len, i, lineidx) {
     }
     if (len % 2) ++len # make len even
     idx = 0
-    printf("%i: ", ++TOTAL_OUTPUT_LINES)
     for (i = 1; i<= len; i++) {
         idx = (  1*substr(data[0], i,   1)) \
             + (  2*substr(data[1], i,   1)) \
